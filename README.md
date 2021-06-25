@@ -1,2 +1,3 @@
 # Network-and-route-planner
 This network and route planner functions as an SQL script in Python using the ''Psycopg2'' module. A round trip can be calculated using this application when PostGIS is installed on your system. In order for the application to work, pgadmin is required, with a database with the PostGIS and PGRouting plugin. The cost defenition needs to be loaded into PostGIS from the CSV file and the PostGIS settings have to be set in the Python Script in order to connect to the database. 
+Since the file of cost defenition is too large, the file is uploaded to google drive: https://drive.google.com/drive/folders/1k8b_zVp2J5YVnWyL86cYrWrBPrVxkl3A?usp=sharing
